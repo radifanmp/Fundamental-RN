@@ -2,12 +2,12 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import Data from "./src/screens/data";
+import State from "./src/screens/state";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Data />
+      <State />
     </View>
   );
 }
